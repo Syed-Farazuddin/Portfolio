@@ -132,7 +132,6 @@ ul {
   font-family: "Clicker Script", cursive;
   font-size: 40px;
 }
-
 .left .logo a::before {
   content: "";
   position: absolute;
@@ -171,6 +170,9 @@ ul {
   color: var(--text-black-900);
   padding: 5px 15px;
   border-bottom: 1px solid var(--bg-black-50);
+}
+.left .nav li a:hover {
+  color: #ec1839 !important;
 }
 
 .left .nav li a.active {
@@ -286,7 +288,6 @@ h3.my-profession {
 }
 
 .btn:hover {
-  /* scale: 1.4; */
   transform: scale(1.05);
 }
 
@@ -404,7 +405,6 @@ h3.my-profession {
 
 .about .about-content .skills .skill-item {
   margin-bottom: 30px;
-  /* position: absolute; */
 }
 .about .about-content .skills .skill-item .progress .progress-in {
   position: absolute;
@@ -447,8 +447,6 @@ h3.my-profession {
   border: 1px solid var(--bg-black-50);
   width: 100%;
   position: relative;
-}
-.about .about-content .experience {
 }
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -517,7 +515,6 @@ h3.my-profession {
   border-radius: 10px;
   padding: 30px 15px;
   text-align: center;
-  /* margin-bottom: 20px; */
   margin-top: 20px;
   transition: al 0.3s ease;
 }
