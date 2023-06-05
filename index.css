@@ -67,7 +67,7 @@ section-title h2 {
   content: "";
   height: 4px;
   width: 50px;
-  background-color: #ec1839;
+  background-color: var(--skin-color);
   position: absolute;
   top: 100%;
   /* left: ; */
@@ -76,7 +76,7 @@ section-title h2 {
   content: "";
   height: 4px;
   width: 25px;
-  background-color: #ec1839;
+  background-color: var(--skin-color);
   position: absolute;
   top: 100%;
   left: 15px;
@@ -137,8 +137,8 @@ ul {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-bottom: 5px solid #ec1839;
-  border-left: 5px solid #ec1839;
+  border-bottom: 5px solid var(--skin-color);
+  border-left: 5px solid var(--skin-color);
   bottom: 0;
   left: 0;
 }
@@ -147,8 +147,8 @@ ul {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-top: 5px solid #ec1839;
-  border-right: 5px solid #ec1839;
+  border-top: 5px solid var(--skin-color);
+  border-right: 5px solid var(--skin-color);
   top: 0;
   right: 0;
 }
@@ -172,11 +172,11 @@ ul {
   border-bottom: 1px solid var(--bg-black-50);
 }
 .left .nav li a:hover {
-  color: #ec1839 !important;
+  color: var(--skin-color) !important;
 }
 
 .left .nav li a.active {
-  color: #ec1839;
+  color: var(--skin-color);
 }
 
 .left .av li a i {
@@ -202,7 +202,7 @@ ul {
 .left .nav_toggler span {
   height: 2px;
   width: 18px;
-  background: #ec1839;
+  background: var(--skin-color);
   display: block;
   position: relative;
 }
@@ -211,7 +211,7 @@ ul {
   content: "";
   height: 2px;
   width: 18px;
-  background: #ec1839;
+  background: var(--skin-color);
   position: absolute;
   top: -6px;
   left: 0;
@@ -221,7 +221,7 @@ ul {
   content: "";
   height: 2px;
   width: 18px;
-  background: #ec1839;
+  background: var(--skin-color);
   position: absolute;
   top: 6px;
   left: 0;
@@ -260,14 +260,14 @@ h3.hello span {
   font-family: "Clicker Script", cursive;
   font-size: 30px;
   font-weight: 700;
-  color: #ec1839;
+  color: var(--skin-color);
 }
 h3.my-profession {
   font-size: 30px;
   margin: 15px 0;
 }
 .typing {
-  color: #ec1839;
+  color: var(--skin-color);
 }
 .home-info p {
   margin-bottom: 70px;
@@ -282,7 +282,7 @@ h3.my-profession {
   border-radius: 40px;
   display: inline-block;
   white-space: nowrap;
-  background: #ec1839;
+  background: var(--skin-color);
   transition: all 0.3s ease;
   border: none;
 }
@@ -298,8 +298,8 @@ h3.my-profession {
   width: 80px;
   right: 20px;
   bottom: -40px;
-  border-bottom: 10px solid #ec1839;
-  border-right: 10px solid #ec1839;
+  border-bottom: 10px solid var(--skin-color);
+  border-right: 10px solid var(--skin-color);
 }
 
 .home-img::before {
@@ -309,8 +309,8 @@ h3.my-profession {
   width: 80px;
   left: -20px;
   top: -40px;
-  border-top: 10px solid #ec1839;
-  border-left: 10px solid #ec1839;
+  border-top: 10px solid var(--skin-color);
+  border-left: 10px solid var(--skin-color);
 }
 
 /* About styling  */
@@ -334,7 +334,7 @@ h3.my-profession {
 }
 
 .about .about-content .about-text h3 span {
-  color: #ec1839;
+  color: var(--skin-color);
 }
 
 .about .about-content.about-text p {
@@ -411,7 +411,7 @@ h3.my-profession {
   left: 0;
   top: 0;
   border-radius: 5px;
-  background: #ec1839;
+  background: var(--skin-color);
   position: absolute;
   height: 100%;
 }
@@ -469,7 +469,7 @@ h3.my-profession {
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #ec1839;
+  background-color: var(--skin-color);
 }
 
 .about .about-content .timeline .circle-dot {
@@ -479,7 +479,7 @@ h3.my-profession {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #ec1839;
+  background-color: var(--skin-color);
 }
 
 .about .about-content .timeline .timeline-date {
@@ -534,11 +534,11 @@ h3.my-profession {
 .service .service-item .service-item-inner .icon .fa {
   font-size: 40px;
   line-height: 60px;
-  color: #ec1839;
+  color: var(--skin-color);
   transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover .icon {
-  background: #ec1839;
+  background: var(--skin-color);
 }
 
 .service .service-item .service-item-inner:hover .icon .fa {
@@ -596,7 +596,7 @@ h3.my-profession {
 /* Contact  */
 
 .contact-title {
-  color: #ec1839;
+  color: var(--skin-color);
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
@@ -622,7 +622,7 @@ h3.my-profession {
 
 .contact .contact-info-item .icon .fa {
   font-size: 25px;
-  color: #ec1839;
+  color: var(--skin-color);
 }
 
 .contact .contact-info-item h3 {
@@ -679,6 +679,9 @@ h3.my-profession {
   padding: 0 50px;
 }
 
+.open {
+  transform: translate(-25px);
+}
 /* Making responsive websites  */
 
 @media screen and (max-width: 1199px) {
