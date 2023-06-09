@@ -594,9 +594,14 @@ h3.my-profession {
   overflow: hidden;
   cursor: pointer;
 }
+.portfolio .portfolio-item-inner:hover {
+  box-shadow: rgba(233, 226, 226, 0.35) 0px 5px 15px;
+}
 .portfolio-item img {
-  width: 400px;
-  height: 400px;
+  /* width: max-content; */
+  max-width: max-content;
+  max-height: 400px;
+  /* height: max-content; */
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
